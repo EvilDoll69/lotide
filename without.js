@@ -26,9 +26,9 @@ assertArraysEqual(['1', '2', '3',], [1, 2]) // => Assertion Failed
 const without = (source, itemsToRemove) => { 
   //should return a new array with only those elements from source that are not present in the itemsToRemove array
   const newArray = [];
-  for (let i = 0; i < source.length; i++) {
-    if (source[i] !== itemsToRemove) {
-      newArray.push(source[i])
+  for (let i = 0; i < source.length; i++) { // looping through the array
+    if (!itemsToRemove.includes(source[i])) { 
+      newArray.push(source[i]) // pushing new array without the itemsToRemove
     }
   }
   return newArray;

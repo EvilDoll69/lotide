@@ -8,6 +8,13 @@ const findKey = (object, callback) => {
   return undefined;
 }
 
+// const findKey = (object, callback) => {  // scan the object and return the first key which contains the given value. 
+//   //If no key with that given value is found, then it should return undefined.
+//   return Object.keys(object).find(key => callback);
+//   }
+
+
+
 console.log(findKey({
   "Blue Hill": { stars: 1 },
   "Akaleri":   { stars: 3 },

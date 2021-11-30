@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@evildoll69/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "for learning purposes",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/EvilDoll69/lotide.git"
   },
-  "author": "",
+  "author": "Tatyana Fediushyn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/EvilDoll69/lotide/issues"
